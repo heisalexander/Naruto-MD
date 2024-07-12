@@ -1,5 +1,5 @@
 {
-  "name":"FLASH-MD",
+  "name":"ROKID-MD",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":[
     "bot",
@@ -16,7 +16,7 @@
     "PREFIX":
     {
       "description":"insert a prefix for your bot, be it a letter, a number or a symbol",
-      "value":".",
+      "value":",",
       "required":true
     },
     "AUTO_READ_MESSAGES":
@@ -70,7 +70,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicVBSU1ZGY1lwc0dvR05XU1BnYUxYTzNhZTFYZ1VCMWNSbW9rTkxSM0hYRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWDV3MFRwbUpJYXE5T0x0UGNNY0MxbFFMZkwwSitURmtpTVRRN2tIbGRDOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrSlZueFpWWU1SMHloYVBqNHE3aFRFWUNJLzdkSTB1eHNEeUQ4cDcra213PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJGcFVaUGd3TlA5NUhSRlhaWXJPQloyaDBIejBNcmJPakd2MGUySGMwWkV3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNEenRmSlgzUnMxRzZVRU9ZQzZkeWJoRVhOdTNHa0c2eUprQm9ielpBMXM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImFZbmRmSDE3MVo1Vmo3SjREY3kyR1pxbFZGYnVleDRlWVhieUFNak95Q0k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOExzcnlrakdRUFNyZmplcG01V2VHbFJKWXBKQTczVndLTVFSeCtRakgwMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUG5KcnZYN1BFQWtyNGFockdpekFPNGRDWE9CR3gzV1RuTEFPakZCdEJnND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImkrQldicngwMGRndVVVeWdMVmlMZHR3QlZqZnYxRmRrc1QwRkFJZ2VJOVdhOHd6cE8wbVo5bUU2d0lCY1NwQ1Q2dkFqWDBmSTZJZTJhMnpZQ0pkS2pRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTk1LCJhZHZTZWNyZXRLZXkiOiI5Z3NhaWVMUHl0TDBEaUpyK3ZGSWFKS0xtUmZnNXhrQmszQnpFYTgzemZJPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI1d1hHT1pMQlFXYVZTNktKSUJtdkJRIiwicGhvbmVJZCI6ImViMGYyNTdhLTNjZGMtNDExNS04M2YwLWNiYzRmODExYjZmNiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJldVVWSnpONFFsc0dLbUVBSjk1VkVSQXRZdnM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQjV0dVg3QmNoaWdaVXMvbmZBWlhVSG5RL0NnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkRIS01SQVFFIiwibWUiOnsiaWQiOiIyNTQ3NzQ2NTc3NDI6MTNAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi5oiR5b6I6auY5YW05L2g5aW9In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMZVVnYXdHRU8yZXhiUUdHQVVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ4YVNKODZZTjBBMHdzNjMvelc2c3g1QjJpUmtRTzFUVkxJYzYzOFNUNmxzPSIsImFjY291bnRTaWduYXR1cmUiOiJiMjZGaVlhWkZQdXlLdFpGYkJQeklhb2RKRy9DSjBMZnU3dkpacmtOSXBpKzlSYVY3ZGhLNHNBMFpVeVozMlV3cUZJa05iVXhRSDdEM2g0aEJDSHREQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiN3cra1FpNDV4bWZiVXlaVFdibVdUb3l2RldkOXF6U3pWcXgxK3U0SUk4cUJuNEhaWXhwMVNQdHdWUGxRVW4wSHJJU0VoQ0tDTWpxT0h4dzI1djJranc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQ3NzQ2NTc3NDI6MTNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCY1draWZPbURkQU5NTE90LzgxdXJNZVFkb2taRUR0VTFTeUhPdC9FaytwYiJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDc5OTEwNiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFIQmcifQ==",
       "required": true
 
     },
@@ -79,20 +79,20 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "rokid"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value": "254774657742"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "2"
   },
     "CHAT_BOT":
     {
