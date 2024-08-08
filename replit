@@ -1,0 +1,28 @@
+run = "npm start || yarn start || node ."
+hidden = [".config"]
+modules = ["nodejs-20", "web", "nix"]
+
+
+
+
+[unitTest]
+language = "nodejs"
+
+onBoot = "npm i || yarn"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npm start || yarn start || node ."]
+deploymentTarget = "cloudrun"
+ignorePorts = false
+
+[[ports]]
+localPort = 3936
+externalPort = 3000
+
+[[ports]]
+localPort = 9132
+externalPort = 80
+ 
